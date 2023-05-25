@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+	font-family: 'Ubuntu', sans-serif;
+}
+#navbar{
+	position:static;
+	top:0;
+	left:0;
+	padding: .5rem 5rem;
+	box-shadow:5px 5px 20px rgba(0,0,0,.5);
+	background:#F1F1EF;
+	
+
+}
+.navbar .navbar-brand{
+	font-size:20px;
+	font-weight:800;
+	color:green!important;
+	letter-spacing: 3px;
+
+}
+.navbar .navbar-brand{
+	width:10px;
+	font-family: Franklin Gothic Medium;
+}
+
+
+#navbarSupportedContent a{
+	color:black;
+	border-bottom:2px solid transparent ;
+}
+
+#navbarSupportedContent a:hover{
+	border-bottom:2px solid #6EF713
+
+}
+#navbarSupportedContent button{
+	background:green !important;
+	border-radius:7px;
+	color:white;
+
+}
+
+#home {
+	width:100%;
+	min-height:100vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-family:sans-serif;
+	letter-spacing: 3px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#home{
+	background-image: url(images/bghome.jpg);
+	background-size:cover;
+	background-position: center;
+	flex-direction:column;
+
+
+}
+
+#home h1{
+	font-family: Franklin Gothic Medium;
+	color:yellow ;
+	font-size:50px;
+	letter-spacing:30px;
+	text-shadow: black !important;
+}
+
+#home p{
+	color:white;
+	text-shadow:black;
+	font-family:unset;
+	font-weight:bold;
+	letter-spacing:8px;
+}
+#home .input-group {
+	width:25%;
+	height:30px;
+	border-radius:7px;
+
+}
+
+.signin{
+	background:green!important;
+	color:white !important;
+	
+}
+
+h2{
+	color:green;
+	font-family:sans-serif;
+}
+
+#footer{
+	background:#F1F1EF;
+	color:black;
+	font-family:'Ubuntu', sans-serif;
+	padding: .5rem 5rem;
+	letter-spacing: 2px;
+
+}
+
+#connected{
+	
+	color:black;
+	font-family:ubuntu!important;
+}
+h6{
+	color:green;
+	font-family:Franklin Gothic Medium;
+	}
+#menus{
+	letter-spacing:10px;
+	text-align:center;
+	color:black !important;
+	padding-bottom:5px;
+	}
+
+#menus h1{
+	font-optical-sizing: auto;
+	font-family: Franklin Gothic Medium;
+	color:green;
+}
+h5{
+	color:black; !important;
+}
+
+#menu1 {
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+#menu2 {
+	
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+#menu1 a{
+	background:green;
+	color:white;
+
+}
+
+#menu2 a{
+	background:green;
+	color:white;
+	
+
+}
+#feed{
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+
+}
+#feed a{
+	background:green;
+	color:white;
+}
+
